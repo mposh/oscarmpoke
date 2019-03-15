@@ -1,11 +1,15 @@
 {
-  "name": "mposhtech",
+  "name": "oscarmpoke",
   "version": "1.0.0",
   "description": "mposhtech website",
   "main": "index.js",
+  "homepage": "http://mposh.github.io/oscarmposh",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Oscar Mpoke",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
